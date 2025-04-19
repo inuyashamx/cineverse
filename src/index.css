@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #E50914;
+    --color-secondary: #141414;
+    --color-dark: #000000;
+    --color-light: #FFFFFF;
+  }
+
+  body {
+    @apply min-h-screen;
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    background-color: var(--color-primary);
+    @apply text-white hover:opacity-90;
+  }
+  
+  .card {
+    @apply rounded-lg overflow-hidden shadow-lg transition-transform duration-200 hover:scale-105;
+    background-color: var(--color-secondary);
+  }
+}
