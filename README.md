@@ -4,6 +4,8 @@
 
 CineVerse es una aplicación web moderna para explorar y descubrir películas. Construida con React, Tailwind CSS y la API de TMDB.
 
+🌐 **Demo en vivo:** [https://cineverse-1cdf1.web.app/](https://cineverse-1cdf1.web.app/)
+
 ## 🚀 Características
 
 - 🎯 Diseño moderno y responsivo
